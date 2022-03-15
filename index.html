@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Press</title>
+</head>
+<body>
+    <header class="p-2 w-100 border-bottom">
+        <nav class="navbar navbar-expand-md navbar-light bg-white position-relative pr-lx-5">
+            <a class="navbar-brand d-flex align-items-center px-md-4 px-lg-5 ml-xl-2" href="#">
+                <i class="fab fa-airbnb mainColor mr-2"></i>
+                News
+            </a>
+            <button class="navbar-toggler mr-4 border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="d-none d-md-flex justify-content-end text-black w-100 mx-5 px-lg-3">
+                <a class="nav-link text-black rounded" href="#">About us</a>
+                <a class="nav-link text-black rounded" href="#">Media assets</a>               
+                <a class="nav-link text-black rounded" href="#">Contact</a>
+                <a class="nav-link text-black rounded d-none d-md-block dropdown"  data-toggle="dropdown" href="#">
+                    <i class="fas fa-globe"></i>                             
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="bg-white rounded shadow large-country-list dropdown-menu">
+                    <a class="dropdown-item pl-3 pb-2 rounded" href="#">English</a>
+                    <a class="dropdown-item pl-3 pb-2 rounded" href="#">Deutsch</a>
+                    <a class="dropdown-item pl-3 pb-2 rounded" href="#">Español</a>                       
+                </div>                       
+                <a class="nav-link text-black d-none d-md-block" href="#">
+                    <i class="fas fa-search"></i>
+                    Search
+                </a>            
+            </div>
+            
+            <div class="sidebar collapse position-absolute bg-white d-md-none pr-4" id="navbarSupportedContent">
+                <button type="button" class="close d-md-none position-absolute mr-4 pr-3" data-toggle="collapse" data-target="#navbarSupportedContent" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <form class="d-md-none">
+                    <div class="form-group d-flex align-items-center position-relative searchMenu pr-4">
+                        <i class="fas fa-search position-absolute pl-3"></i>
+                        <input type="text" class="form-control form-control-lg rounded-0" placeholder="What are you looking for?">
+                    </div>
+                    <div class="form-group d-flex align-items-center position-relative dropdownMenu pr-4">
+                        <i class="fas fa-globe position-absolute pl-3"></i>                    
+                        <i class="fas fa-chevron-down position-absolute pr-5"></i>                  
+                        <input type="text" class="form-control form-control-lg rounded-0 dropdownMenu" placeholder="United Kingdom">
+                        <div class="position-absolute bg-white rounded country-list shadow">
+                            <a class="dropdown-item pl-3 pb-2 rounded" href="#">English</a>
+                            <a class="dropdown-item pl-3 pb-2 rounded" href="#">Deutsch</a>
+                            <a class="dropdown-item pl-3 pb-2 rounded" href="#">Español</a>                       
+                        </div>                   
+                    </div>
+                </form>
+                <div class="nav-sm-options w-100 d-md-none">
+                    <a class="rounded d-block text-decoration-none" href="#">About us</a>
+                    <a class="rounded d-block text-decoration-none" href="#">Media assets</a>               
+                    <a class="rounded d-block text-decoration-none" href="#">Contact</a>                    
+                </div>           
+            </div>        
+        </nav>
+    </header>
+
+      <main>
+          <div class="container-fluid mt-4 mt-md-5 px-0 px-md-4 px-lg-5">
+            <!-- pt-4 pt-md-5 pl-1 pr-1 pl-md-3 pr-md-3 pl-lg-5 pr-lg-5 -->
+            <div class="row promo d-flex justify-content-between align-items-center px-4">
+                <a href="" class="col-12 col-md-6 col-lg-8 order-md-2 mt-4 d-block w-100">
+                    <img class="img-fluid rounded w-100" src="images/jacek-dylag-tR54rO5JwsA-unsplash.jpg" alt="scenary">
+                </a>
+                <div class="col-12 col-md-6 col-lg-4 order-md-1 mt-4">
+                    <small class="text-secondary">February 2, 2022</small>
+                    <h1 class="copy"><a href="#" class="text-black ">Live for a year in a restored '1 Euro' Sicilian home with Airbnb</a></h1>
+                    <button class="btn btn-success mt-4">Read more</button>
+                </div>
+            </div>     
+          
+            <div class="row latest-news mt-5 mb-5 px-4 pb-md-5 pb-lg-0 mb-lg-3">
+                <div class="col-lg-9 d-flex-wrap">
+                    <h3 class="mb-4">Latest News</h3>
+                    <div class="row">
+                        <div class="col-md-6">           
+                            <div class="news-article mb-4 d-flex align-items-center align-items-md-start">
+                                <div class="box box1 col-3">
+                                </div>     
+                                <div class="col-9">
+                                    <a href="">Live like Bluey for the weekend: Iconic Heeler home listed on Airbnb</a>
+                                    <small class="text-secondary">February 7, 2022</small>
+                                </div>                        
+                            </div>
+                            <div class="news-article mb-4 d-flex align-items-center align-items-md-start">
+                                <div class="box box2 col-3">
+                                </div>     
+                                <div class="col-9">
+                                    <a href="">An update on our work to support responsible hosting in Maui</a>
+                                    <small class="text-secondary">February 3, 2022</small>
+                                </div>                        
+                            </div>
+                        </div>  
+                        <div class="col-md-6">
+                            <div class="news-article mb-4 d-flex align-items-center align-items-md-start">
+                                <div class="box box3 col-3">
+                                </div>     
+                                <div class="col-9">
+                                    <a href="">Airbnb’s $150 billion Host community</a>
+                                    <small class="text-secondary">February 3, 2022</small>
+                                </div>                        
+                            </div>
+                            <div class="news-article mb-4 d-flex align-items-center align-items-md-start">
+                                <div class="box box4 col-3">
+                                </div>     
+                                <div class="col-9">
+                                    <a href="">Share the love with an Airbnb gift card this Valentine’s Day</a>
+                                    <small class="text-secondary">February 1, 2022</small>
+                                </div>                        
+                            </div>
+                        </div>     
+                    </div>                            
+                </div>
+                <div class="col-lg-3 mt-2 follow-social mb-1">
+                    <h3 class="mb-md-4">Follow us</h3>
+                    <p>Get the latest news and travel inspiration.</p>
+                    <div class="social w-lg-75">
+                        <i class="fab fa-twitter fa-2x mr-3"></i>
+                        <i class="fab fa-instagram-square fa-2x mr-3"></i>
+                        <i class="fab fa-linkedin fa-2x mr-3"></i>
+                        <i class="fab fa-facebook-f fa-2x mr-3"></i>
+                    </div>
+                </div>
+             </div>
+            </div>
+            <div class="container-fluid future position-relative">
+                <div class="row future-ideas pt-5 pb-2 pb-md-4">
+                    <div class="col-12 col-md-8 col-lg-6 px-4 px-md-5 mx-lg-4">
+                        <h3>The future of travel</h3>
+                        <p>The ways people travel, work and live are blurring. From product innovations, to the latest travel trends, discover how the future of travel is being shaped by Airbnb. </p>
+                    </div>                           
+                </div>
+                <div class="row future-articles pb-4 scrollableRow d-flex flex-nowrap pl-3 pl-md-5 pr-md-4">
+                    <div class="col-9 col-lg-5 ml-lg-4">
+                        <div class="article pr-0 pr-md-3">
+                            <img class="img-fluid" src="images/brooke-cagle-LCcFI_26diA-unsplash.jpg" alt="remote-work">
+                            <p class="text-white mt-3">Businesses get creative with flexible living policies as remote work becomes more permanent</p>
+                            <small class="text-white">February 1, 2022</small>
+                        </div>
+                    </div>
+                    <div class="col-9 col-lg-5">
+                        <div class="article pr-0 pr-md-3">
+                            <img class="img-fluid" src="images/unsplash-7rXu_HJO9D8-unsplash.jpg" alt="meetings">
+                            <p class="text-white mt-3">Travel revolution in data</p>
+                            <small class="text-white">February 7, 2022</small>
+
+                        </div>
+                    </div>
+                    <div class="col-9 col-lg-5 mr-2 mr-lg-4 mb-5">
+                        <div class="article pr-0 pr-md-3">
+                            <img class="img-fluid" src="images/kelsey-chance-ZrhtQyGFG6s-unsplash.jpg" alt="dinner">
+                            <p class="text-white mt-3">Welcoming nearly 4.5 million guests for New Year's Eve</p>
+                            <small class="text-white">January 5, 2022</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid px-0 px-md-4 px-lg-5 py-4 py-md-3 py-lg-2 my-2 my-md-5">
+                <div class="row categories px-4">
+                    <div class="col">
+                        <h4 class="mb-4">Categories</h4>
+                        <div class="row options">
+                            <div class="col d-flex flex-wrap">
+                                <a href="" class="badge badge-pill badge-white text-black border mr-2 mb-2">All</a>
+                                <a href="" class="badge badge-pill badge-white text-black border mr-2 mb-2">Company</a>
+                                <a href="" class="badge badge-pill badge-white text-black border mr-2 mb-2">Stays</a>
+                                <a href="" class="badge badge-pill badge-white text-black border mr-2 mb-2">Experiences</a>
+                                <a href="" class="badge badge-pill badge-white text-black border mr-2 mb-2">Policy</a>
+                                <a href="" class="badge badge-pill badge-white text-black border mr-2 mb-2">Community</a>
+                                <a href="" class="badge badge-pill badge-white text-black border mr-2 mb-2">Airbnb.org</a>                       
+                            </div>
+                        </div>
+                        <div class="row category mt-4 mt-lg-5">
+                            <div class="col-md-4 d-flex flex-md-column mb-4">
+                                <a href="" class="d-block mr-3 mb-md-3">
+                                    <img class="img-fluid rounded" src="images/derek-thomson-TWoL-QCZubY-unsplash.jpg" alt="small business">
+                                </a>
+                                <div class="category-desc w-100">
+                                    <a href="" class="text-black"><p>Canarian Airbnb Hosts earn $5.6 billion since 2010</p></a>
+                                    <small class="text-secondary">February 2, 2022</small>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex flex-md-column mb-4">
+                                <a href="" class="d-block mr-3 mb-md-3">
+                                    <img class="img-fluid rounded" src="images/margaux-bellott-r5tmUSupJwA-unsplash.jpg" alt="lgbtq">
+                                </a>
+                                <div class="category-desc w-100">
+                                    <a href="" class="text-black"><p>Supporting our work for LGBTQ + equality in the workplace</p></a>
+                                    <small class="text-secondary">February 2, 2022</small>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex flex-md-column mb-4">
+                                <a href="" class="d-block mr-3 mb-md-3">
+                                    <img class="img-fluid rounded" src="images/adam-winger--THiqda3iGM-unsplash.jpg" alt="outdoor travel">
+                                </a>
+                                <div class="category-desc w-100">
+                                    <a href="" class="text-black"><p>Airbnb continues commitment to athlete support with Airbnb500 grant</p></a>
+                                    <small class="text-secondary">February 2, 2022</small>
+                                </div>
+                            </div>                        
+                        </div>
+                        <div class="row category">
+                            <div class="col-md-3 d-flex flex-md-column mb-4">
+                                <a href="" class="d-block mr-3 mb-md-3">
+                                    <img class="img-fluid rounded" src="images/unsplash-7rXu_HJO9D8-unsplash.jpg" alt="small business">
+                                </a>
+                                <div class="category-desc w-100">
+                                    <a href="" class="text-black"><p>How the Big Game is bringing economic opportunity to Los Angeles </p></a>
+                                    <small class="text-secondary">February 2, 2022</small>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3 d-flex flex-md-column mb-4">
+                                <a href="" class="d-block mr-3 mb-md-3">
+                                    <img class="img-fluid rounded" src="images/margaux-bellott-r5tmUSupJwA-unsplash.jpg" alt="small business">
+                                </a>
+                                <div class="category-desc w-100">
+                                    <a href="" class="text-black"><p>Supporting the removal of racial covenants from property deeds</p></a>
+                                    <small class="text-secondary">February 5, 2022</small>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3 d-flex flex-md-column mb-4">
+                                <a href="" class="d-block mr-3 mb-md-3">
+                                    <img class="img-fluid rounded" src="images/derek-thomson-TWoL-QCZubY-unsplash.jpg" alt="small business">
+                                </a>
+                                <div class="category-desc w-100">
+                                    <a href="" class="text-black"><p>New marketing campaign encourages travelers to “Rediscover Seattle” </p></a>
+                                    <small class="text-secondary">February 1, 2022</small>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3 d-flex flex-md-column mb-4">
+                                <a href="" class="d-block mr-3 mb-md-3">
+                                    <img class="img-fluid rounded" src="images/jacek-dylag-tR54rO5JwsA-unsplash.jpg" alt="small business">
+                                </a>
+                                <div class="category-desc w-100">
+                                    <a href="" class="text-black"><p>Live for a year in a restored ‘1 Euro’ Sicilian home with Airbnb</p></a>
+                                    <small class="text-secondary">February 2, 2022</small>
+                                </div>
+
+                            </div>
+                        </div>
+                        <a href="" class="btn mt-2 mt-md-4" id="category-more-button">More</a>
+                    </div>                    
+                </div>                
+            </div>
+            <div class="container-fluid signup-container">
+                <div class="row signup d-flex align-items-center">
+                    <div class="col-12 col-lg-6 p-0 m-0 w-100">
+                        <img class="img-fluid" src="images/brooke-cagle-WHWYBmtn3_0-unsplash.jpg" alt="coffeeshop signup">
+                    </div>
+                    <div class="col-12 col-lg-6 p-5 text-center signup-text">
+                        <h6 class="text-white mb-3">Sign up for our newsletter</h6>
+                        <p class="text-white px-2 px-lg-5">Enter your email to receive the latest news and updates from Airbnb News.</p>
+                        <a href="" class="btn btn-dark">Subscribe</a>
+                    </div>
+                </div> 
+            </div>         
+      </main>
+      <footer>
+        <div class="container-fluid footer pt-4 pt-xl-5 border-top px-4 px-lg-5">
+          <div class="row px-md-4">
+              <div class="col-12 col-xl-3 d-flex flex-column">
+                    <small class="title py-1">ABOUT</small>
+                    <div class="row">
+                        <div class="col-12 footer-link">
+                            <a class="py-1 text-black" href="">Newsroom</a>
+                            <a class="py-1 text-black" href="">Learn about new features</a>
+                            <a class="py-1 text-black" href="">Letter from our founders</a>
+                        </div>
+                        <div class="col-12 footer-link">
+                            <a class="py-1 text-black" href="">Careers</a>
+                            <a class="py-1 text-black" href="">Investors</a>
+                            <a class="py-1 text-black" href="">Airbnb Luxe</a>  
+                        </div>
+                    </div>                  
+                    <small class="line my-3"></small>               
+              </div>
+              <div class="col-12 col-xl-3 d-flex flex-column">
+                    <small class="title py-1">COMMUNITY</small>
+                    <div class="row">
+                        <div class="col-12 footer-link">
+                            <a class="py-1 text-black" href="">Airbnb.org:disaster relief housing</a>
+                            <a class="py-1 text-black" href="">Support Afghan refugees</a>
+                            <a class="py-1 text-black" href="">Celebrating diversity & belonging</a>
+                        </div>
+                        <div class="col-12 footer-link">
+                            <a class="py-1 text-black" href="">Combating discrimination</a>  
+                        </div>  
+                    </div>
+                    <small class="line my-3"></small>              
+              </div>
+              <div class="col-12 col-xl-3 d-flex flex-column">
+                    <small class="title py-1">HOSTING</small>
+                    <div class="row">
+                        <div class="col-12 footer-link">
+                            <a class="py-1 text-black" href="">Try hosting</a>
+                            <a class="py-1 text-black" href="">AirCover: protection for Hosts</a>
+                            <a class="py-1 text-black" href="">Explore hosting resources</a>
+                        </div>
+                        <div class="col-12 footer-link">
+                            <a class="py-1 text-black" href="">Visit our community forum</a>             
+                            <a class="py-1 text-black" href="">How to host responsibly</a>  
+                        </div>                              
+                    </div>
+                    <small class="line my-3"></small> 
+             </div>
+             <div class="col-12 col-xl-3 d-flex flex-column">
+                    <small class="title py-1">SUPPORT</small>
+                    <div class="row">
+                        <div class="col-12 footer-link">
+                            <a class="py-1 text-black" href="">Help Center</a>
+                            <a class="py-1 text-black" href="">Safety information</a>
+                            <a class="py-1 text-black" href="">Cancellation options</a>
+                        </div>
+                        <div class="col-12 footer-link">
+                            <a class="py-1 text-black" href="">Our COVID-19 Response</a>             
+                            <a class="py-1 text-black" href="">Supporting people with disabilities</a> 
+                            <a class="py-1 text-black" href="">Report a neighborhood concern</a> 
+                        </div>                    
+                    </div>
+                    <small class="line my-3"></small>
+            </div>
+         </div>
+          <div class="row mb-3 px-md-4">
+            <div class="col-12 col-xl-6">
+                <small class="title py-2 d-block">DESCLAIMER</small>
+                <small class="disclaimer d-block">The Airbnb Newsroom is aimed at journalists. All Homes and Experiences referenced on the Airbnb Newsroom are intended purely to inspire and illustrate. Airbnb does not recommend or endorse specific Home or Experience listings on the Airbnb platform. </small>
+            </div>
+          </div>
+          <small class="border-top mt-5 mb-4 d-block mx-md-4"></small>
+
+          <div class="row footer-social pb-4 px-md-4 text-md-center d-xl-flex justify-content-xl-between align-items-xl-center">
+            <div class="col-12 col-xl-auto social order-xl-2">
+                <a href=""><i class="fab fa-twitter mr-3"></i></a>
+                <a href=""><i class="fab fa-instagram-square mr-3"></i></a>
+                <a href=""><i class="fab fa-linkedin mr-3"></i></a>
+                <a href=""><i class="fab fa-facebook-f mr-3"></i></a>               
+            </div>
+            
+            <div class="col-12 copyright col-xl-auto d-xl-flex">
+                <small>@ 2022 Airbnb, Inc. All rights reserved</small>
+                <div class="col-12 col-xl-auto ml-xl-2 terms p-0">
+                    <span class="d-none d-xl-inline-block">·</span>
+                    <a class="" href="">Privacy</a> <span>·</span>
+                    <a class="" href="">Terms</a> <span>·</span>
+                    <a class="" href="">Sitemap</a>
+                </div>  
+            </div>          
+                      
+         </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
